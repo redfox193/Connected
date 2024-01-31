@@ -1,0 +1,64 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.grid-item {
+    background-color: #EFEFE6;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: Calibri;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.grid-item:hover {
+    cursor: pointer;
+}
+
+.grid-item-selected {
+    background-color: #5A594E;
+    color: white;
+}
+
+.grid-item-guessed {
+    background-color: #DCDCDC;
+    color: #F5F5F5;
+}
+
+#mistakes {
+    padding-top: 20px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.answer {
+    font-family: Calibri;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
